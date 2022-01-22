@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://47.106.145.147:3360/cjsoauth2ssodemo
+    url: jdbc:mysql://localhost:3306/cjsoauth2ssodemo?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=true
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
